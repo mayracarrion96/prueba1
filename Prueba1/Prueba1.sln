@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Prueba1\Modelo.csproj", "{11C46E85-4C21-40CA-BAB9-9C2F10B346FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDB", "ModeloDB\ModeloDB.csproj", "{EEB0DDED-A6CB-47EC-9267-EC22F9A27E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{F451B07E-A685-4734-9726-7E0D81933A49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C46E85-4C21-40CA-BAB9-9C2F10B346FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C46E85-4C21-40CA-BAB9-9C2F10B346FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C46E85-4C21-40CA-BAB9-9C2F10B346FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C46E85-4C21-40CA-BAB9-9C2F10B346FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB0DDED-A6CB-47EC-9267-EC22F9A27E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB0DDED-A6CB-47EC-9267-EC22F9A27E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB0DDED-A6CB-47EC-9267-EC22F9A27E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB0DDED-A6CB-47EC-9267-EC22F9A27E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F451B07E-A685-4734-9726-7E0D81933A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F451B07E-A685-4734-9726-7E0D81933A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F451B07E-A685-4734-9726-7E0D81933A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F451B07E-A685-4734-9726-7E0D81933A49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FA5B9CA-AA45-49CB-800A-8BE5FE9DFE91}
+	EndGlobalSection
+EndGlobal
