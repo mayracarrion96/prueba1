@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using Modelo.Entidades;
+using ModeloDB;
 
 namespace ConsoleApp
 {
@@ -59,6 +61,10 @@ namespace ConsoleApp
                 phone = "2012356",
                 lastUpdate = new DateTime(2021, 12, 12)
             };
+
+            List<Address> listaaddresses = new List<Address>() {
+                Mayra, Sonia, Nicolas, Bayron, Jhon};
+
             //CUSTOMER
             Customer MC = new Customer()
             {
@@ -139,6 +145,10 @@ namespace ConsoleApp
                 addressId = 1,
                 Address= Mayra
             };
+
+            List<Customer> listacustomers = new List<Customer>() {
+                MC, SC, JP, NC, BC, SaC};
+
             //PAYMENT
             Payment uno = new Payment()
             {
@@ -230,6 +240,18 @@ namespace ConsoleApp
                 customerId = 6,
                 Customer = SaC
             };
+
+            List<Payment> listapayment = new List<Payment>() {
+                uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez};
+
+
+            Repositorio db = new Repositorio();
+            db.addresses.AddRange(listaaddresses);
+            db.customers.AddRange(listacustomers);
+            db.payments.AddRange(listapayment);
+           
+            db.SaveChanges();
+
         }
     }
 }
